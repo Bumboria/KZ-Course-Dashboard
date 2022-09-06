@@ -1,0 +1,14 @@
+#fcol{
+    border-color: black;
+    border: 1px solid;
+}
+
+#c1{
+    height: 50px;
+    width: 50px;
+}
+
+.course-panel{
+    color:aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
