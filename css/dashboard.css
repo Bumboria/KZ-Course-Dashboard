@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #fcol{
     border-color: black;
     border: 1px solid;
@@ -13,4 +14,19 @@
     font-weight: bold;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+#fcol{
+    border-color: black;
+    border: 1px solid;
+}
+
+#c1{
+    height: 50px;
+    width: 50px;
+}
+
+.course-panel{
+    color:blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> cb938bd3ff6adef763ce50468f7dcf7f7afc3324
 }
