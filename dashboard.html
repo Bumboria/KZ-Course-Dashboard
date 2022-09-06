@@ -18,8 +18,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <!-- Title -->
+    <div class="container" id="title-container">
+      <span class="title">User dashboard</span>
+    </div>
+
     <!-- First Row -->
-    <div class="container px-4">
+    <div class="container px-4" id="panel-container">
         <div class="row gx-5">
             <div class="col-md-2">
               <div class="course-panel"  id="fcol">
@@ -36,16 +41,18 @@
                 3
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-5">
               <div class="profile-panel" id="fcol">
-                <div class="col-sm-6">
-                  <span class="profile-title">Profile</span>
-                  <span class="profile-image"></span>
-                </div>
-                <div class="col-sm-6">
-                  <span class="profile-name">Name: </span>
-                  <span class="profile-age">Age: </span>
-                  <span class="profile-edu">Edu: </span>
+                <div class="row">
+                  <div class="col-6" id="profile-col">
+                    <div class="row"><span class="profile-title">Profile</span></div>
+                    <div class="row"><span class="profile-pic"><img src="images/image.jpg" alt="Italian Trulli" class="profile-image"></span></div>
+                  </div>
+                  <div class="col-sm-6" id="details-col">
+                    <div class="row"><span class="profile-name">Name: Student</span></div>
+                    <div class="row"><span class="profile-age">Age: 10</span></div>
+                    <div class="row"><span class="profile-edu">Edu: Taska</span></div>
+                  </div>
                 </div> 
               </div>
             </div>
