@@ -1,6 +1,9 @@
 #fcol{
     border-color: black;
     border: 1px solid;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 #c1{
@@ -11,5 +14,5 @@
 .course-panel{
     color:green;
     font-weight: bold;
-    font-size: 50px;
+    //font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
