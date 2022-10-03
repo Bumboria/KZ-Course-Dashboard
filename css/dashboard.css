@@ -55,7 +55,7 @@
 }
 
 .left-row-1{
-  height: 500px !important; 
+  height: 370px !important; 
 }
 
 .left-row-2{
@@ -68,6 +68,53 @@
 
 .mid-row-2{
   height: 500px !important;
+}
+
+#btnSide{
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.list-group{
+  padding-right: 10px;
+}
+
+.list-group-item.active{
+  background-color: #caa9ff;
+  border-color: #f8f9fa00;
+}
+
+.course1{
+  width: 200px;
+  background-color: #ffd17c;
+  border-radius: 15px;
+}
+
+.course2{
+  width: 200px;
+  background-color: #c07cff;
+  border-radius: 15px;
+}
+
+.course3{
+  width: 200px;
+  background-color: #7cdaff;
+  border-radius: 15px;
+}
+
+.course-image{
+  width:200px;
+  height:150px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.course-name{
+  text-align: left;
+}
+
+.course-lesson-count{
+  text-align: left;
 }
 
 /*Progress Bar*/
