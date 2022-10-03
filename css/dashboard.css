@@ -86,18 +86,21 @@
 
 .course1{
   width: 200px;
+  height: 260px;
   background-color: #ffd17c;
   border-radius: 15px;
 }
 
 .course2{
   width: 200px;
+  height: 260px;
   background-color: #c07cff;
   border-radius: 15px;
 }
 
 .course3{
   width: 200px;
+  height: 260px;
   background-color: #7cdaff;
   border-radius: 15px;
 }
@@ -110,11 +113,20 @@
 }
 
 .course-name{
+  padding-left: 10px;
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: -5px;
 }
 
 .course-lesson-count{
+  padding-left: 10px;
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*Progress Bar*/
