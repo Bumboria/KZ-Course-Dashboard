@@ -129,6 +129,20 @@
   font-weight: 400;
 }
 
+.courses-titlemain{
+  font-family: "Oduda Bold";
+  font-size: 35px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.btnCourse{
+  background-color: #8C52FF;
+  color: #FFF43E;
+  border-radius: 5px;
+  border: 0px;
+}
+
 /*Progress Bar*/
   .mt-100{
     margin-top: 200px;
@@ -241,4 +255,9 @@
       -webkit-transform: rotate(135deg);
       transform: rotate(135deg);
     }
+  }
+
+  @font-face {
+    font-family: "Oduda";
+    src: url("/fonts/oduda-bold-demo-webfont.woff") format("woff"), url("/fonts/oduda-bold-demo-webfont.woff2") format("woff2");
   }
