@@ -567,8 +567,3 @@
       transform: rotate(140deg);
     }
   }
-
-  @font-face {
-    font-family: "Oduda";
-    src: url("/fonts/oduda-bold-demo-webfont.woff") format("woff"), url("/fonts/oduda-bold-demo-webfont.woff2") format("woff2");
-  }
