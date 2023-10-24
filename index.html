@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kidzori LMS Dashboard is mobile friendly">
+    <meta name="keywords" content="LMS" />
+    <title>Kidzori LMS Dashboard</title>
+
+    <!-- ========== Css Files ========== -->
+    <link href="css/root.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Start Page Loading -->
+    <div class="loading"><img src="images/#" alt="loading-img"></div>
+    <!-- End Page Loading -->
+
+    <!-- START TOP -->
+    <div id="top" class="clearfix">
+
+        <!-- Start App Logo -->
+        <div class="applogo">
+            <a href="index.html" class="logo">
+                <img src="images/logo1.png" alt="logo-img" class="logo-image">
+            </a>
+        </div>
+        <!-- End App Logo -->
+
+        <!-- Start Sidebar Show Hide Button -->
+        <a href="#" class="sidebar-open-button"><i class="fa fa-bars"></i></a>
+        <a href="#" class="sidebar-open-button-mobile"><i class="fa fa-bars"></i></a>
+        <!-- End Sidebar Show Hide Button -->
+
+        <!-- Start Searchbox -->
+        <form class="searchform">
+            <input type="text" class="searchbox" id="searchbox" placeholder="Search">
+            <span class="searchbutton"><i class="fa fa-search"></i></span>
+        </form>
+        <!-- End Searchbox -->
+
+        <!-- Start Top Right -->
+        <ul class="top-right">
+
+            <li class="link" style="list-style: none; padding: 4px 12px;">
+
+                <a href="#"><i class="fa fa-bell" style="font-size: large; position: relative; "></i><span class="badge label-danger"
+                        style="font-size: 9px; position: absolute; top: 7px;">4</span></a>
+
+            </li>
+
+            <li class="dropdown link">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle profilebox"><img src="images/avatar.png"
+                        alt="img"><b>Rosli</b><span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-list dropdown-menu-right">
+                    <li role="presentation" class="dropdown-header">Profile</li>
+                    <li><a href="#"><i class="fa falist fa-inbox"></i>Inbox<span class="badge label-danger">4</span></a>
+                    </li>
+                    <li><a href="#"><i class="fa falist fa-file-o"></i>Files</a></li>
+                    <li><a href="#"><i class="fa falist fa-wrench"></i>Settings</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="fa falist fa-lock"></i> Lockscreen</a></li>
+                    <li><a href="/login.html"><i class="fa falist fa-power-off"></i> Logout</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        <!-- End Top Right -->
+
+    </div>
+    <!-- END TOP -->
+
+    <!-- START SIDEBAR -->
+    <div class="sidebar clearfix">
+
+        <ul class="sidebar-panel nav">
+            <li class="sidetitle"></li>
+            <li><a href="index.html"><span class="icon color5"><i class="fa fa-home"></i></span>Dashboard</a></li>
+            <li><a href="mailbox.html"><span class="icon color6"><i class="fa fa-envelope-o"></i></span>Courses</a></li>
+            <li><a href="#"><span class="icon color7"><i class="fa fa-flask"></i></span>Chats<span
+                        class="caret"></span></a>
+                <ul>
+                    <li><a href="icons.html">Icons</a></li>
+                    <li><a href="tabs.html">Tabs</a></li>
+                    <li><a href="buttons.html">Buttons</a></li>
+                </ul>
+            </li>
+            <li><a href="charts.html"><span class="icon color8"><i class="fa fa-newspaper-o"></i></span>Grades</a></li>
+            <li><a href="charts.html"><span class="icon color8"><i class="fa fa-table"></i></span>Schedule</a></li>
+            <li><a href="charts.html"><span class="icon color8"><i class="fa fa-gear"></i></span>Setting</a></li>
+        </ul>
+
+        <div class="sidebar-plan">
+            <div class="left-row-2" id="fcol">
+                <div class="premiumSection" align="center">
+                    <p><img src="images/astro.png" class="premiumAstro"></p>
+                    <p class="premiumTitle">Premium Subscription</p>
+                    <p class="premiumDesc">Buy premium and get access to new courses now!</p>
+                    <button type="button" class="btnPremium">Find Out More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- START CONTENT -->
+    <div class="content">
+        <!-- Start Page Header -->
+        <div class="page-header">
+            <div class="row">
+                <div class="col-md-2">
+                    <h1 class="title">Dashboard</h1>
+                </div>
+            </div>
+
+            <!--<ol class="breadcrumb">
+                <li class="active">This is a quick overview of some features</li>
+            </ol> -->
+
+            <!-- Start Page Header Right Div -->
+            <!--<div class="right">
+                <div class="btn-group" role="group" aria-label="...">
+                    <a href="index.html" class="btn btn-light">Dashboard</a>
+                    <a href="#" class="btn btn-light"><i class="fa fa-refresh"></i></a>
+                    <a href="#" class="btn btn-light"><i class="fa fa-search"></i></a>
+                    <a href="#" class="btn btn-light" id="topstats"><i class="fa fa-line-chart"></i></a>
+                </div>
+            </div>-->
+            <!-- End Page Header Right Div -->
+
+        </div>
+        <!-- End Page Header -->
+
+        <!-- Start First Row -->
+        <div class="row">
+            <div class="col-md-18">
+                <h3 class="title">New Courses</h3>
+                <!-- Start CourseBox -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="widget socialbox" style="background:#EBE6FF; height:315px;">
+                        <p class="text">
+                            <img src="images/course1.jpg" class="course-image">
+                            QuranGuru
+                        </p>
+                        <p class="text-info">3 items</p>
+
+                        <ul class="info">
+                            <li><i class=""></i></li>
+                            <li><button type="button" class="btn btn-option3 btn-icon"><i
+                                        class="fa fa-angle-right"></i></button></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- End CourseBox -->
+                <!-- Start CourseBox -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="widget socialbox" style="background:#EBE6FF; height:315px;">
+
+                        <p class="text">
+                            <img src="images/course2.jpg" class="course-image">
+                            Kidzori 5m
+                        </p>
+                        <p class="text-info">5 items</p>
+
+                        <ul class="info">
+                            <li><i class=""></i></li>
+                            <li><button type="button" class="btn btn-option3 btn-icon"><i
+                                        class="fa fa-angle-right"></i></button></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- End CourseBox -->
+                <!-- Start CourseBox -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="widget socialbox" style="background:#EBE6FF; height:315px;">
+
+                        <p class="text">
+                            <img src="images/course3.jpg" class="course-image">
+                            LC Module
+                        </p>
+                        <p class="text-info">10 items</p>
+
+                        <ul class="info">
+                            <li><i class=""></i></li>
+                            <li><button type="button" class="btn btn-option3 btn-icon"><i
+                                        class="fa fa-angle-right"></i></button></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- End CourseBox -->
+            </div>
+            <!-- Start Profile Widget -->
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="widget profile-widget" style="height:315px;">
+                    <img src="images/avatar.png" class="profile-image" alt="img">
+                    <h1>Rosli</h1>
+                    <p> Elementary<i class="fa fa-university"></i></p>
+                </div>
+            </div>
+            <!-- End Profile Widget -->
+
+        </div>
+        <!-- End First Row -->
+
+        <!-- Second Row -->
+        <div class="row">
+            <!-- Start Files -->
+            <div class="col-md-12 col-lg-8">
+                <div class="panel panel-widget" style="height:500px;">
+                    <div class="panel-title">
+                        My Courses
+                        <ul class="panel-tools">
+                            <li><a class="icon"><i class="fa fa-refresh"></i></a></li>
+                            <li><a class="icon closed-tool"><i class="fa fa-times"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-body table-responsive">
+
+                        <table class="table table-dic table-hover ">
+                            <thead>
+                                <tr>
+                                    <td class="text-center">#</td>
+                                    <td>Course Name</td>
+                                    <td>Start</td>
+                                    <td>Rate</td>
+                                    <td>Level</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-folder-o"></i></td>
+                                    <td>Tadabbur 1 <p>3 lesson</p>
+                                    </td>
+                                    <td>Oct 28</td>
+                                    <td>3.8</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-file-archive-o"></i></td>
+                                    <td>Tadabbur 2 <p>5 lesson</p>
+                                    </td>
+                                    <td>Mar 12</td>
+                                    <td>4.8</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-file-code-o"></i></td>
+                                    <td>Science <p>4 lesson</p>
+                                    </td>
+                                    <td>Mar 18</td>
+                                    <td>4.3</td>
+                                    <td>Elementary</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-file-pdf-o"></i></td>
+                                    <td>English <p>2 lesson</p>
+                                    </td>
+                                    <td>April 03</td>
+                                    <td>3.0</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-folder-o"></i></td>
+                                    <td>Arts <p>1 lesson</p>
+                                    </td>
+                                    <td>May 15</td>
+                                    <td>3.2</td>
+                                    <td>Elementary</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-folder-o"></i></td>
+                                    <td>Crafts <p>1 lesson</p>
+                                    </td>
+                                    <td>May 30</td>
+                                    <td>4.9</td>
+                                    <td>Elementary</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Files -->
+
+            <!-- Start Teammates -->
+            <div class="row">
+                <div class="right-row-3 col-md-12 col-lg-6" id="fcol" style="width: 315px;">
+                    <p class="titleRg3">Homework Progress</p>
+                    <a href="#" style="text-decoration: none;">
+                        <div class="row" id="hw-1">
+                            <div class="progress blue">
+                                <span class="progress-left">
+                                    <span class="progress-bar-3"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar-3"></span>
+                                </span>
+                                <div class="progress-value">30%</div>
+                            </div>
+                            <div class="hwSection">
+                                <p class="hwTitle">Homework 1</p>
+                                <p class="hwLesson">3 lessons</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <div class="row" id="hw-1">
+                            <div class="progress blue">
+                                <span class="progress-left">
+                                    <span class="progress-bar-6"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar-6"></span>
+                                </span>
+                                <div class="progress-value">60%</div>
+                            </div>
+                            <div class="hwSection">
+                                <div class="hwSectionLeft">
+                                    <p class="hwTitle">Homework 2</p>
+                                    <p class="hwLesson">10 lessons</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <div class="row" id="hw-1">
+                            <div class="progress blue">
+                                <span class="progress-left">
+                                    <span class="progress-bar-9"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar-9"></span>
+                                </span>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <div class="hwSection">
+                                <p class="hwTitle">Homework 3</p>
+                                <p class="hwLesson">6 lessons</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Teammates -->
+
+        </div>
+        <!-- End Second Row -->
+
+        <!-- Start Footer -->
+        <div class=" row footer">
+            <div class="col-md-6 text-left">
+                Copyright © 2023 <a href="http://themeforest.net/user/bragher/portfolio" target="_blank">Bragher</a> All
+                rights reserved.
+            </div>
+            <div class="col-md-6 text-right">
+                Design and Developed by <a href="http://themeforest.net/user/bragher/portfolio"
+                    target="_blank">Bragher</a> and Improvised by <a href="https://github.com/Mustaffa96"
+                    target="_blank">Mustaffa</a>
+            </div>
+        </div>
+        <!-- End Footer -->
+
+    </div>
+    <!-- End Content -->
+
+    <!-- ================================================
+jQuery Library
+================================================ -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- ================================================
+Bootstrap Core JavaScript File
+================================================ -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- ================================================
+Plugin.js - Some Specific JS codes for Plugin Settings
+================================================ -->
+    <script src="js/plugins.js"></script>
+
+    <!-- ================================================
+Bootstrap Select
+================================================ -->
+    <script src="js/bootstrap-select/bootstrap-select.js"></script>
+
+    <!-- ================================================
+Bootstrap Toggle
+================================================ -->
+    <script src="js/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+    <!-- ================================================
+Bootstrap WYSIHTML5
+================================================ -->
+    <!-- main file -->
+    <script src="js/bootstrap-wysihtml5/wysihtml5-0.3.0.min.js"></script>
+    <!-- bootstrap file -->
+    <script src="js/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+
+    <!-- ================================================
+Summernote
+================================================ -->
+    <script src="js/summernote/summernote.min.js"></script>
+
+    <!-- ================================================
+Flot Chart
+================================================ -->
+    <!-- main file -->
+    <script src="js/flot-chart/flot-chart.js"></script>
+    <!-- time.js -->
+    <script src="js/flot-chart/flot-chart-time.js"></script>
+    <!-- stack.js -->
+    <script src="js/flot-chart/flot-chart-stack.js"></script>
+    <!-- pie.js -->
+    <script src="js/flot-chart/flot-chart-pie.js"></script>
+    <!-- demo codes -->
+    <script src="js/flot-chart/flot-chart-plugin.js"></script>
+
+    <!-- ================================================
+Chartist
+================================================ -->
+    <!-- main file -->
+    <script src="js/chartist/chartist.js"></script>
+    <!-- demo codes -->
+    <script src="js/chartist/chartist-plugin.js"></script>
+
+    <!-- ================================================
+Easy Pie Chart
+================================================ -->
+    <!-- main file -->
+    <script src="js/easypiechart/easypiechart.js"></script>
+    <!-- demo codes -->
+    <script src="js/easypiechart/easypiechart-plugin.js"></script>
+
+    <!-- ================================================
+Rickshaw
+================================================ -->
+    <!-- d3 -->
+    <script src="js/rickshaw/d3.v3.js"></script>
+    <!-- main file -->
+    <script src="js/rickshaw/rickshaw.js"></script>
+    <!-- demo codes -->
+    <script src="js/rickshaw/rickshaw-plugin.js"></script>
+
+    <!-- ================================================
+Data Tables
+================================================ -->
+    <script src="js/datatables/datatables.min.js"></script>
+
+    <!-- ================================================
+Sweet Alert
+================================================ -->
+    <script src="js/sweet-alert/sweet-alert.min.js"></script>
+
+    <!-- ================================================
+Kode Alert
+================================================ -->
+    <script src="js/kode-alert/main.js"></script>
+
+    <!-- ================================================
+jQuery UI
+================================================ -->
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- ================================================
+Moment.js
+================================================ -->
+    <script src="js/moment/moment.min.js"></script>
+
+    <!-- ================================================
+Full Calendar
+================================================ -->
+    <script src="js/full-calendar/fullcalendar.js"></script>
+
+    <!-- ================================================
+Bootstrap Date Range Picker
+================================================ -->
+    <script src="js/date-range-picker/daterangepicker.js"></script>
+
+</body>
+
+</html>
